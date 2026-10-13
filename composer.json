@@ -1,0 +1,9 @@
+{
+    "name": "cgalileo/url-signer",
+    "description": "Stateless, tamper-evident signed URLs for PHP (HMAC-SHA256).",
+    "type": "library",
+    "keywords": ["url", "hmac", "signing", "security", "signed-url"],
+    "license": "MIT",
+    "require": { "php": ">=7.4" },
+    "autoload": { "psr-4": { "UrlSigner\\": "src/" } }
+}
